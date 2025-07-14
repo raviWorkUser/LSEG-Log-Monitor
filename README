@@ -1,0 +1,17 @@
+# LogMonitor
+
+LogMonitor is a Java application that reads a log file with job start and end times,
+calculates job durations, and generates a report showing if jobs finished on time,
+took too long, or are incomplete.
+
+## How to Use
+
+1. Put your log file (e.g., `logs.log`) in the project directory.
+2. Run the application.
+3. The report will be saved as `<log_file_name>_output.log` in the same directory.
+
+## Log File Format
+
+Each line should look like this:
+
+11:35:56,scheduled task 032, END,37980
